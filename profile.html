@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile - FoodShare</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="dashboard-header">
+
+        <div class="dashboard-navbar">
+
+            <div class="logo">
+                <h2>Food<span>Share</span></h2>
+            </div>
+
+
+            <div class="dashboard-user">
+
+                <div class="user-info">
+
+                    <div class="user-avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <h4>Shivam</h4>
+                        <span>Food Donor</span>
+                    </div>
+
+                </div>
+
+
+                <a href="index.html" class="logout-btn">
+                    Logout
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class="dashboard-section">
+
+        <div class="dashboard-container">
+
+
+            <!-- SIDEBAR -->
+
+            <aside class="sidebar">
+
+                <div class="sidebar-menu">
+
+                    <a href="dashboard.html" class="sidebar-link">
+                        <span>⌂</span> Dashboard
+                    </a>
+
+                    <a href="donate-food.html" class="sidebar-link">
+                        <span>+</span> Donate Food
+                    </a>
+
+                    <a href="available-food.html" class="sidebar-link">
+                        <span>🍽</span> Available Food
+                    </a>
+
+                    <a href="my-donations.html" class="sidebar-link">
+                        <span>◷</span> My Donations
+                    </a>
+
+                    <a href="profile.html" class="sidebar-link active">
+                        <span>👤</span> Profile
+                    </a>
+
+                </div>
+
+            </aside>
+
+
+            <!-- MAIN -->
+
+            <main class="dashboard-main">
+
+                <div class="page-title">
+
+                    <div>
+                        <p class="welcome-small">ACCOUNT SETTINGS</p>
+
+                        <h1>My Profile</h1>
+
+                        <p>
+                            Manage your personal information and account details.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="profile-grid">
+
+
+                    <!-- PROFILE CARD -->
+
+                    <div class="profile-card">
+
+                        <div class="profile-avatar-large">
+                            S
+                        </div>
+
+                        <h2>Shivam</h2>
+
+                        <p>Food Donor</p>
+
+
+                        <div class="profile-info">
+
+                            <div>
+                                <span>📧</span>
+                                foodshare@gmail.com
+                            </div>
+
+                            <div>
+                                <span>📍</span>
+                                Gopalganj, Bihar
+                            </div>
+
+                            <div>
+                                <span>📅</span>
+                                Member since Sep 2026
+                            </div>
+
+                        </div>
+
+
+                        <div class="profile-impact">
+
+                            <div>
+                                <h3>12</h3>
+                                <span>Donations</span>
+                            </div>
+
+                            <div>
+                                <h3>280</h3>
+                                <span>Meals Shared</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EDIT PROFILE -->
+
+                    <div class="dashboard-card profile-form-card">
+
+                        <div class="dashboard-card-header">
+
+                            <div>
+                                <h2>Personal Information</h2>
+
+                                <p>
+                                    Update your profile details.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <form id="profileForm">
+
+                            <div class="profile-form-grid">
+
+                                <div class="form-group">
+
+                                    <label>Full Name</label>
+
+                                    <input
+                                        type="text"
+                                        value="Shivam"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <label>Email Address</label>
+
+                                    <input
+                                        type="email"
+                                        value="foodshare@gmail.com"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <label>Phone Number</label>
+
+                                    <input
+                                        type="tel"
+                                        placeholder="+91 XXXXX XXXXX"
+                                    >
+
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <label>City</label>
+
+                                    <input
+                                        type="text"
+                                        value="Gopalganj"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="dashboard-donate-btn profile-save-btn"
+                            >
+                                Save Changes
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SECURITY -->
+
+                <div class="dashboard-card security-card">
+
+                    <h2>Account Security</h2>
+
+                    <p>
+                        Keep your account secure by managing your password.
+                    </p>
+
+                    <button class="change-password-btn">
+                        Change Password
+                    </button>
+
+                </div>
+
+
+            </main>
+
+        </div>
+
+    </section>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

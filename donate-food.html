@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Donate Food - FoodShare</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>Food<span>Share</span></h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="available-food.html">Find Food</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+            <a href="donate-food.html" class="donate-btn active-donate">
+                Donate Food
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- PAGE HEADER -->
+
+    <section class="page-header">
+
+        <div class="page-header-content">
+
+            <span>MAKE A DIFFERENCE</span>
+
+            <h1>Donate Surplus Food</h1>
+
+            <p>
+                Your extra food can bring happiness to someone in need.
+                Share it instead of wasting it.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- DONATION FORM -->
+
+    <section class="donation-section">
+
+        <div class="donation-container">
+
+
+            <!-- FORM -->
+
+            <div class="donation-form">
+
+                <div class="form-heading">
+
+                    <h2>Food Donation Details</h2>
+
+                    <p>
+                        Please provide accurate information about the food.
+                    </p>
+
+                </div>
+
+
+                <form id="donationForm">
+
+
+                    <!-- FOOD NAME -->
+
+                    <div class="form-group">
+
+                        <label>Food Name</label>
+
+                        <input
+                            type="text"
+                            id="foodName"
+                            placeholder="Example: Rice, Curry, Bread"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- FOOD CATEGORY -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label>Food Category</label>
+
+                            <select id="foodCategory" required>
+
+                                <option value="">
+                                    Select Category
+                                </option>
+
+                                <option>Vegetarian</option>
+
+                                <option>Non-Vegetarian</option>
+
+                                <option>Bakery Items</option>
+
+                                <option>Fruits & Vegetables</option>
+
+                                <option>Packaged Food</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>Quantity</label>
+
+                            <input
+                                type="text"
+                                id="quantity"
+                                placeholder="Example: 20 Plates"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- COOKING TIME -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label>Prepared Date & Time</label>
+
+                            <input
+                                type="datetime-local"
+                                id="preparedTime"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>Best Before</label>
+
+                            <input
+                                type="datetime-local"
+                                id="expiryTime"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- LOCATION -->
+
+                    <div class="form-group">
+
+                        <label>Pickup Address</label>
+
+                        <textarea
+                            id="address"
+                            placeholder="Enter complete pickup address"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- CITY -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label>City</label>
+
+                            <input
+                                type="text"
+                                id="city"
+                                placeholder="Enter city name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>Contact Number</label>
+
+                            <input
+                                type="tel"
+                                id="contact"
+                                placeholder="Enter contact number"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DESCRIPTION -->
+
+                    <div class="form-group">
+
+                        <label>Additional Information</label>
+
+                        <textarea
+                            id="description"
+                            placeholder="Any additional details about the food..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- BUTTON -->
+
+                    <button
+                        type="submit"
+                        class="submit-donation-btn"
+                    >
+
+                        Submit Food Donation
+
+                    </button>
+
+
+                </form>
+
+            </div>
+
+
+            <!-- RIGHT SIDE INFO -->
+
+            <div class="donation-info">
+
+                <h2>Before You Donate</h2>
+
+                <p>
+                    Please make sure the food is safe and suitable
+                    for consumption.
+                </p>
+
+
+                <div class="info-list">
+
+                    <div class="info-item">
+
+                        <div class="info-icon">✓</div>
+
+                        <div>
+                            <h4>Fresh Food</h4>
+                            <p>
+                                Only donate fresh and properly stored food.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <div class="info-icon">✓</div>
+
+                        <div>
+                            <h4>Accurate Details</h4>
+                            <p>
+                                Provide correct quantity and preparation time.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <div class="info-icon">✓</div>
+
+                        <div>
+                            <h4>Easy Pickup</h4>
+                            <p>
+                                Make sure the pickup location is accessible.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="impact-card">
+
+                    <h3>Every Meal Matters</h3>
+
+                    <p>
+                        Your small contribution can make a big difference
+                        in someone's life.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+<footer class="main-footer">
+
+    <div class="footer-container">
+
+        <!-- ABOUT -->
+
+        <div class="footer-column">
+
+            <h2>Food<span>Share</span></h2>
+
+            <p>
+                FoodShare connects surplus food donors with people
+                and organizations in need to reduce food waste and
+                fight hunger.
+            </p>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="available-food.html">Find Food</a>
+            <a href="donate-food.html">Donate Food</a>
+            <a href="login.html">Login</a>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>📍 Gopalganj, Bihar, India</p>
+
+            <p>📞 +91 XXXXX XXXXX</p>
+
+            <p>✉️ foodshare@gmail.com</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- BOTTOM -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 FoodShare. All Rights Reserved.
+        </p>
+
+        <p>
+            Made with ❤️ to Reduce Food Waste
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

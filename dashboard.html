@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - FoodShare</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- DASHBOARD NAVBAR -->
+
+    <header class="dashboard-header">
+
+        <div class="dashboard-navbar">
+
+            <div class="logo">
+                <h2>Food<span>Share</span></h2>
+            </div>
+
+
+            <div class="dashboard-user">
+
+                <div class="user-info">
+
+                    <div class="user-avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <h4>Shivam</h4>
+                        <span>Food Donor</span>
+                    </div>
+
+                </div>
+
+
+                <a href="index.html" class="logout-btn">
+                    Logout
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- DASHBOARD -->
+
+    <section class="dashboard-section">
+
+        <div class="dashboard-container">
+
+
+            <!-- SIDEBAR -->
+
+            <aside class="sidebar">
+
+                <div class="sidebar-menu">
+
+                    <a href="dashboard.html" class="sidebar-link active">
+                        <span>⌂</span> Dashboard
+                    </a>
+
+                    <a href="donate-food.html" class="sidebar-link">
+                        <span>+</span> Donate Food
+                    </a>
+
+                    <a href="available-food.html" class="sidebar-link">
+                        <span>🍽</span> Available Food
+                    </a>
+
+                    <a href="my-donations.html" class="sidebar-link">
+                 <span>◷</span> My Donations
+                </a>
+
+                <a href="profile.html" class="sidebar-link">
+                 <span>👤</span> Profile
+                    </a>
+
+                </div>
+
+
+                <div class="sidebar-bottom">
+
+                    <a href="index.html">
+                        ← Back to Website
+                    </a>
+
+                </div>
+
+            </aside>
+
+
+            <!-- MAIN CONTENT -->
+
+            <main class="dashboard-main">
+
+
+                <!-- WELCOME -->
+
+                <div class="dashboard-welcome">
+
+                    <div>
+
+                        <p class="welcome-small">
+                            DASHBOARD OVERVIEW
+                        </p>
+
+                        <h1>Welcome back, Shivam 👋</h1>
+
+                        <p>
+                            Here's what's happening with your food donations today.
+                        </p>
+
+                    </div>
+
+
+                    <a href="donate-food.html" class="dashboard-donate-btn">
+                        + Donate Food
+                    </a>
+
+                </div>
+
+
+                <!-- STATISTICS -->
+
+                <div class="dashboard-stats">
+
+
+                    <div class="dashboard-stat-card">
+
+                        <div class="stat-icon">
+                            🍱
+                        </div>
+
+                        <div>
+
+                            <p>Total Donations</p>
+
+                            <h2>12</h2>
+
+                            <span class="stat-growth">
+                                +3 this month
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dashboard-stat-card">
+
+                        <div class="stat-icon active-icon">
+                            ✓
+                        </div>
+
+                        <div>
+
+                            <p>Active Donations</p>
+
+                            <h2>3</h2>
+
+                            <span>
+                                Available now
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dashboard-stat-card">
+
+                        <div class="stat-icon completed-icon">
+                            ★
+                        </div>
+
+                        <div>
+
+                            <p>Completed</p>
+
+                            <h2>9</h2>
+
+                            <span>
+                                Successfully delivered
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dashboard-stat-card">
+
+                        <div class="stat-icon request-icon">
+                            ◷
+                        </div>
+
+                        <div>
+
+                            <p>Pending Requests</p>
+
+                            <h2>2</h2>
+
+                            <span>
+                                Needs your response
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RECENT DONATIONS -->
+
+                <div class="dashboard-card">
+
+                    <div class="dashboard-card-header">
+
+                        <div>
+
+                            <h2>Recent Donations</h2>
+
+                            <p>
+                                Track your recently donated food.
+                            </p>
+
+                        </div>
+
+
+                        <a href="#">
+                            View All →
+                        </a>
+
+                    </div>
+
+
+                    <div class="donation-table-wrapper">
+
+                        <table class="donation-table">
+
+                            <thead>
+
+                                <tr>
+                                    <th>Food</th>
+                                    <th>Quantity</th>
+                                    <th>Location</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+
+                                        <div class="table-food">
+
+                                            <span class="table-food-icon">
+                                                🍛
+                                            </span>
+
+                                            Rice & Curry
+
+                                        </div>
+
+                                    </td>
+
+                                    <td>30 Meals</td>
+
+                                    <td>Gopalganj</td>
+
+                                    <td>06 Sep 2026</td>
+
+                                    <td>
+                                        <span class="status completed">
+                                            Completed
+                                        </span>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+
+                                        <div class="table-food">
+
+                                            <span class="table-food-icon">
+                                                🥘
+                                            </span>
+
+                                            Vegetable & Roti
+
+                                        </div>
+
+                                    </td>
+
+                                    <td>50 Meals</td>
+
+                                    <td>Patna</td>
+
+                                    <td>05 Sep 2026</td>
+
+                                    <td>
+                                        <span class="status active-status">
+                                            Active
+                                        </span>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+
+                                        <div class="table-food">
+
+                                            <span class="table-food-icon">
+                                                🍞
+                                            </span>
+
+                                            Bakery Items
+
+                                        </div>
+
+                                    </td>
+
+                                    <td>25 Packs</td>
+
+                                    <td>Siwan</td>
+
+                                    <td>03 Sep 2026</td>
+
+                                    <td>
+                                        <span class="status pending">
+                                            Pending
+                                        </span>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BOTTOM GRID -->
+
+                <div class="dashboard-bottom-grid">
+
+
+                    <!-- QUICK ACTIONS -->
+
+                    <div class="dashboard-card quick-actions">
+
+                        <h2>Quick Actions</h2>
+
+                        <div class="quick-action-list">
+
+                            <a href="donate-food.html">
+
+                                <span>+</span>
+
+                                <div>
+
+                                    <h4>Donate Food</h4>
+
+                                    <p>
+                                        Share surplus food with people in need.
+                                    </p>
+
+                                </div>
+
+                            </a>
+
+
+                            <a href="available-food.html">
+
+                                <span>🍽</span>
+
+                                <div>
+
+                                    <h4>Find Food</h4>
+
+                                    <p>
+                                        Browse available food donations.
+                                    </p>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- IMPACT -->
+
+                    <div class="impact-dashboard-card">
+
+                        <p>YOUR IMPACT</p>
+
+                        <h2>You've helped provide</h2>
+
+                        <div class="impact-number">
+                            280
+                        </div>
+
+                        <span>Meals to people in need 🍽</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </main>
+
+        </div>
+
+    </section>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

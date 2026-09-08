@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard - FoodShare</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- ADMIN HEADER -->
+
+    <header class="admin-header">
+
+        <div class="admin-navbar">
+
+            <div class="logo">
+                <h2>Food<span>Share</span></h2>
+            </div>
+
+
+            <div class="admin-profile">
+
+                <div class="admin-avatar">
+                    A
+                </div>
+
+                <div>
+                    <h4>Administrator</h4>
+                    <span>System Admin</span>
+                </div>
+
+
+                <a href="index.html" class="admin-logout">
+                    Logout
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ADMIN SECTION -->
+
+    <section class="admin-section">
+
+        <div class="admin-container">
+
+
+            <!-- SIDEBAR -->
+
+            <aside class="admin-sidebar">
+
+                <div class="admin-menu">
+
+                    <a href="admin.html" class="admin-link active">
+                        ⌂ Dashboard
+                    </a>
+
+                    <a href="manage-users.html" class="admin-link">
+                        👥 Manage Users
+                    </a>
+
+                    <a href="food-donations.html" class="admin-link">
+                        🍱 Food Donations
+                    </a>
+
+                    <a href="food-requests.html" class="admin-link">
+                        📋 Food Requests
+                    </a>
+
+                    <a href="approvals.html" class="admin-link">
+                        ✓ Approvals
+                    </a>
+
+                    <a href="settings.html" class="admin-link">
+                        ⚙ Settings
+                    </a>
+
+                </div>
+
+            </aside>
+
+
+            <!-- MAIN CONTENT -->
+
+            <main class="admin-main">
+
+
+                <!-- BACK -->
+
+                <a href="index.html" class="back-link">
+                    ← Back to Website
+                </a>
+
+
+                <!-- TITLE -->
+
+                <div class="admin-title">
+
+                    <p class="admin-small-title">
+                        ADMINISTRATION PANEL
+                    </p>
+
+                    <h1>System Overview</h1>
+
+                    <p>
+                        Monitor and manage the FoodShare platform from one place.
+                    </p>
+
+                </div>
+
+
+                <!-- STATISTICS CARDS -->
+
+                <div class="admin-stats">
+
+
+                    <div class="admin-stat-card">
+
+                        <div class="admin-stat-icon">
+                            👥
+                        </div>
+
+                        <div>
+                            <p>Total Users</p>
+                            <h2>248</h2>
+                            <span>+18 this month</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="admin-stat-card">
+
+                        <div class="admin-stat-icon">
+                            🍱
+                        </div>
+
+                        <div>
+                            <p>Total Donations</p>
+                            <h2>156</h2>
+                            <span>+24 this month</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="admin-stat-card">
+
+                        <div class="admin-stat-icon">
+                            ✓
+                        </div>
+
+                        <div>
+                            <p>Active Food Listings</p>
+                            <h2>32</h2>
+                            <span>Currently available</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="admin-stat-card">
+
+                        <div class="admin-stat-icon">
+                            📋
+                        </div>
+
+                        <div>
+                            <p>Pending Requests</p>
+                            <h2>14</h2>
+                            <span>Requires attention</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- RECENT ACTIVITY -->
+
+                <div class="admin-card recent-activity">
+
+
+                    <div class="activity-header">
+
+                        <div>
+                            <h2>Recent Activity</h2>
+
+                            <p>
+                                Latest activities across the FoodShare platform.
+                            </p>
+                        </div>
+
+                        <a href="#">
+                            View All →
+                        </a>
+
+                    </div>
+
+
+                    <div class="activity-list">
+
+
+                        <div class="activity-item">
+
+                            <div class="activity-icon">
+                                🍱
+                            </div>
+
+                            <div class="activity-info">
+                                <h4>New Food Donation</h4>
+
+                                <p>
+                                    Green Garden Restaurant donated 40 meals.
+                                </p>
+                            </div>
+
+                            <span>10 min ago</span>
+
+                        </div>
+
+
+                        <div class="activity-item">
+
+                            <div class="activity-icon">
+                                👤
+                            </div>
+
+                            <div class="activity-info">
+
+                                <h4>New User Registered</h4>
+
+                                <p>
+                                    Helping Hands NGO joined FoodShare.
+                                </p>
+
+                            </div>
+
+                            <span>35 min ago</span>
+
+                        </div>
+
+
+                        <div class="activity-item">
+
+                            <div class="activity-icon">
+                                📋
+                            </div>
+
+                            <div class="activity-info">
+
+                                <h4>New Food Request</h4>
+
+                                <p>
+                                    Community Shelter requested food for 30 people.
+                                </p>
+
+                            </div>
+
+                            <span>1 hour ago</span>
+
+                        </div>
+
+
+                        <div class="activity-item">
+
+                            <div class="activity-icon">
+                                ✓
+                            </div>
+
+                            <div class="activity-info">
+
+                                <h4>Donation Approved</h4>
+
+                                <p>
+                                    Bakery items donation has been approved.
+                                </p>
+
+                            </div>
+
+                            <span>2 hours ago</span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUICK ACTIONS -->
+
+                <div class="admin-card quick-actions">
+
+                    <h2>Quick Actions</h2>
+
+
+                    <div class="quick-action-buttons">
+
+                        <a href="manage-users.html">
+                            👥 Manage Users
+                        </a>
+
+                        <a href="food-donations.html">
+                            🍱 View Donations
+                        </a>
+
+                        <a href="approvals.html">
+                            ✓ Pending Approvals
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </main>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

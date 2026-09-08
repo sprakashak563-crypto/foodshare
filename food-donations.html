@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donations - FoodShare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="admin-header">
+    <div class="admin-navbar">
+        <div class="logo">
+            <h2>Food<span>Share</span></h2>
+        </div>
+
+        <div class="admin-profile">
+            <div class="admin-avatar">A</div>
+            <div>
+                <h4>Administrator</h4>
+                <span>System Admin</span>
+            </div>
+            <a href="index.html" class="admin-logout">Logout</a>
+        </div>
+    </div>
+</header>
+
+
+<section class="admin-section">
+
+<div class="admin-container">
+
+<aside class="admin-sidebar">
+
+<div class="admin-menu">
+
+<a href="admin.html" class="admin-link">⌂ Dashboard</a>
+<a href="manage-users.html" class="admin-link">👥 Manage Users</a>
+
+<a href="food-donations.html" class="admin-link active">
+🍱 Food Donations
+</a>
+
+<a href="food-requests.html" class="admin-link">📋 Food Requests</a>
+<a href="approvals.html" class="admin-link">✓ Approvals</a>
+<a href="settings.html" class="admin-link">⚙ Settings</a>
+
+</div>
+
+</aside>
+
+
+<main class="admin-main">
+
+<div class="page-title">
+<div>
+<p class="admin-small-title">DONATION MANAGEMENT</p>
+<h1>Food Donations</h1>
+<p>Monitor all food donations submitted on the platform.</p>
+</div>
+</div>
+
+
+<div class="admin-stats">
+
+<div class="admin-stat-card">
+<div class="admin-stat-icon donation-icon">🍱</div>
+<div>
+<p>Total Donations</p>
+<h2>156</h2>
+<span>All time</span>
+</div>
+</div>
+
+<div class="admin-stat-card">
+<div class="admin-stat-icon active-food-icon">✓</div>
+<div>
+<p>Active</p>
+<h2>32</h2>
+<span>Available now</span>
+</div>
+</div>
+
+<div class="admin-stat-card">
+<div class="admin-stat-icon request-admin-icon">◷</div>
+<div>
+<p>Pending</p>
+<h2>14</h2>
+<span>Waiting approval</span>
+</div>
+</div>
+
+</div>
+
+
+<div class="admin-card">
+
+<div class="table-top">
+<h2>All Food Donations</h2>
+<input type="text" placeholder="Search food..." class="admin-search">
+</div>
+
+<div class="admin-table-wrapper">
+
+<table class="admin-table">
+
+<thead>
+<tr>
+<th>Donor</th>
+<th>Food</th>
+<th>Quantity</th>
+<th>Location</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Green Garden</td>
+<td>Rice & Curry</td>
+<td>30 Meals</td>
+<td>Gopalganj</td>
+<td><span class="admin-status approved">Active</span></td>
+<td><button class="admin-action-btn">View</button></td>
+</tr>
+
+<tr>
+<td>City Bakery</td>
+<td>Bakery Items</td>
+<td>25 Packs</td>
+<td>Patna</td>
+<td><span class="admin-status pending-admin">Pending</span></td>
+<td><button class="admin-action-btn">Review</button></td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+</div>
+
+</main>
+</div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

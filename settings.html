@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Settings - FoodShare</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="admin-header">
+
+<div class="admin-navbar">
+
+<div class="logo">
+<h2>Food<span>Share</span></h2>
+</div>
+
+<div class="admin-profile">
+
+<div class="admin-avatar">A</div>
+
+<div>
+<h4>Administrator</h4>
+<span>System Admin</span>
+</div>
+
+<a href="index.html" class="admin-logout">Logout</a>
+
+</div>
+
+</div>
+
+</header>
+
+
+<section class="admin-section">
+
+<div class="admin-container">
+
+
+<aside class="admin-sidebar">
+
+<div class="admin-menu">
+
+<a href="admin.html" class="admin-link">⌂ Dashboard</a>
+
+<a href="manage-users.html" class="admin-link">
+👥 Manage Users
+</a>
+
+<a href="food-donations.html" class="admin-link">
+🍱 Food Donations
+</a>
+
+<a href="food-requests.html" class="admin-link">
+📋 Food Requests
+</a>
+
+<a href="approvals.html" class="admin-link">
+✓ Approvals
+</a>
+
+<a href="settings.html" class="admin-link active">
+⚙ Settings
+</a>
+
+</div>
+
+</aside>
+
+
+<main class="admin-main">
+
+
+<div class="page-title">
+
+<div>
+
+<p class="admin-small-title">
+SYSTEM SETTINGS
+</p>
+
+<h1>Settings</h1>
+
+<p>
+Manage platform settings and administrator preferences.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="settings-grid">
+
+
+<!-- GENERAL SETTINGS -->
+
+<div class="admin-card settings-card">
+
+<h2>General Settings</h2>
+
+<div class="settings-form">
+
+<div class="form-group">
+
+<label>Platform Name</label>
+
+<input type="text" value="FoodShare">
+
+</div>
+
+
+<div class="form-group">
+
+<label>Support Email</label>
+
+<input type="email" value="foodshare@gmail.com">
+
+</div>
+
+
+<div class="form-group">
+
+<label>Contact Number</label>
+
+<input type="text" placeholder="+91 XXXXX XXXXX">
+
+</div>
+
+</div>
+
+<button class="dashboard-donate-btn">
+Save Settings
+</button>
+
+</div>
+
+
+<!-- NOTIFICATION SETTINGS -->
+
+<div class="admin-card settings-card">
+
+<h2>Notification Settings</h2>
+
+<div class="setting-option">
+
+<div>
+
+<h4>Email Notifications</h4>
+
+<p>Receive updates about new donations.</p>
+
+</div>
+
+<input type="checkbox" checked>
+
+</div>
+
+
+<div class="setting-option">
+
+<div>
+
+<h4>New User Notifications</h4>
+
+<p>Get notified when a new user registers.</p>
+
+</div>
+
+<input type="checkbox" checked>
+
+</div>
+
+
+<div class="setting-option">
+
+<div>
+
+<h4>Food Request Alerts</h4>
+
+<p>Receive alerts for new food requests.</p>
+
+</div>
+
+<input type="checkbox" checked>
+
+</div>
+
+</div>
+
+
+<!-- SECURITY -->
+
+<div class="admin-card settings-card">
+
+<h2>Security</h2>
+
+<p class="settings-description">
+Manage administrator account security.
+</p>
+
+<button class="change-password-btn">
+Change Admin Password
+</button>
+
+</div>
+
+
+</div>
+
+
+</main>
+
+</div>
+
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
